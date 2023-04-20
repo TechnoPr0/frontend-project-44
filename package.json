@@ -18,5 +18,13 @@
     "url": "https://github.com/TechnoPr0/frontend-project-44/issues"
   },
   "homepage": "https://github.com/TechnoPr0/frontend-project-44#readme",
-  "type" : "module"
+  "type": "module",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
 }
