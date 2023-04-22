@@ -3,7 +3,7 @@
 import readlineSync from 'readline-sync';
 import whatIsYourName from '../src/cli.js';
 
-whatIsYourName();
+const name = whatIsYourName();
 
 const minNumber = 0;
 const maxNumber = 101;
@@ -24,5 +24,5 @@ for (i; i < 3; i += 1) {
 }
 
 if (i === 3) {
-  console.log('Congratulations, Sam!');
+  console.log(`Congratulations, ${name}!`);
 }
