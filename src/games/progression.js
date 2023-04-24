@@ -1,5 +1,6 @@
 import { randomNumb } from '../index.js';
 
+const question = 'What number is missing in the progression?';
 const progressionLogic = () => {
   const lengthArray = 10;
   const randomStart = randomNumb(1, 100);
@@ -17,4 +18,4 @@ const progressionLogic = () => {
   return answer;
 };
 
-export default progressionLogic;
+export { progressionLogic, question };

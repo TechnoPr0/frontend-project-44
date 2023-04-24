@@ -2,6 +2,7 @@
 
 import { randomNumb } from '../index.js';
 
+const question = 'What is the result of the expression?';
 const calcLogic = () => {
   const minNumber = 1;
   const maxNumber = 26;
@@ -29,4 +30,4 @@ const calcLogic = () => {
   return String(correctAnswer);
 };
 
-export default calcLogic;
+export { calcLogic, question };

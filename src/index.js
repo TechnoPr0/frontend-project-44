@@ -7,9 +7,10 @@ const randomNumb = (minNumber, maxNumber) => {
   return number;
 };
 
-const game = (gameLogic) => {
+const game = (gameLogic, question) => {
   const name = whatIsYourName();
   let i = 0;
+  console.log(question);
   for (i; i < 3; i += 1) {
     const correctAnswer = String(gameLogic());
     const userAnswer = readlineSync.question('Your answer: ');

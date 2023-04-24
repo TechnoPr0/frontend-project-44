@@ -1,5 +1,6 @@
 import { randomNumb } from '../index.js';
 
+const question = 'Find the greatest common divisor of given numbers.';
 const gcdLogic = () => {
   const minNumber = 1;
   const maxNumber = 101;
@@ -23,4 +24,4 @@ const gcdLogic = () => {
   return '1';
 };
 
-export default gcdLogic;
+export { gcdLogic, question };
