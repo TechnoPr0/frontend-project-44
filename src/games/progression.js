@@ -14,7 +14,7 @@ const progressionLogic = () => {
   const randomIndex = randomNumb(0, lengthArray);
   const answer = arrayNumb[randomIndex];
   arrayNumb[randomIndex] = '..';
-  console.log(arrayNumb.join(' '));
+  console.log(`Question: ${arrayNumb.join(' ')}`);
   return answer;
 };
 

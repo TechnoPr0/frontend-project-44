@@ -11,3 +11,5 @@
 <hr>
 <a href="https://asciinema.org/a/gf9ITpkV3SgYuOUCkF81MdX2h" target="_blank">Play brain-progression<img src="https://asciinema.org/a/gf9ITpkV3SgYuOUCkF81MdX2h.svg" /></a>
 <hr>
+<a href="https://asciinema.org/a/FeyIFP6LSWUfBnu2EMEr2fPHx" target="_blank">Play brain-prime<img src="https://asciinema.org/a/FeyIFP6LSWUfBnu2EMEr2fPHx.svg" /></a>
+<hr>
