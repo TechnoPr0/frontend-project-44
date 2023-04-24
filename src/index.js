@@ -9,7 +9,6 @@ const randomNumb = (minNumber, maxNumber) => {
 
 const game = (gameLogic) => {
   const name = whatIsYourName();
-  console.log('What is the result of the expression?');
   let i = 0;
   for (i; i < 3; i += 1) {
     const correctAnswer = gameLogic();

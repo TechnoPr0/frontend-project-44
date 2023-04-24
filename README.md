@@ -6,3 +6,5 @@
 <a href="https://asciinema.org/a/DrVNYj9CHxWYhxBxUtUgCMvrv">Install and play brain-even</a>
 </br>
 <a href="https://asciinema.org/a/uTLuklo7Oi7JSNgSW5i59IvTk">Play brain-calc</a>
+</br>
+<a href="https://asciinema.org/a/YCUvV0CeEDQ4BYaVpQAnRltH4">Play brain-gcd</a>

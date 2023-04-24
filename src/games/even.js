@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { randomNumb } from '../index.js';
 
 const evenLogic = () => {
