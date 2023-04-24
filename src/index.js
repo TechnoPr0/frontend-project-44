@@ -11,7 +11,7 @@ const game = (gameLogic) => {
   const name = whatIsYourName();
   let i = 0;
   for (i; i < 3; i += 1) {
-    const correctAnswer = gameLogic();
+    const correctAnswer = String(gameLogic());
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer === correctAnswer) {
       console.log('Correct!');
